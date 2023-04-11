@@ -8,5 +8,3 @@ brfore_install:
 script:
   -docker run -e CI=true docker-test npm run test
 
-
-
